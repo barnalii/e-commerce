@@ -911,6 +911,9 @@ footer .col-install p{
 #about-app .video video{
     border-radius: 20px;
 }
+#about-app .video video:hover{
+    box-shadow: 5px 5px 5px 5px rgb(203, 201, 201);
+}
 
 
 
@@ -1654,7 +1657,7 @@ footer .col-install p{
             #about-head p{
                 width: 300px;
                 margin-top: 10px;
-                font-size: 15px;
+                font-size: 12px;
                 margin-left: -60px;
             }
             marquee{
@@ -1663,6 +1666,7 @@ footer .col-install p{
             }
             abbr{
                 text-align: center;
+                font-size: 13px;
                 
             }
             #about-app .video {
@@ -1671,7 +1675,7 @@ footer .col-install p{
                 border-radius: 0; /* Remove or adjust this property as needed */
             }
             #about-app .video video {
-                width: 330px;
+                width: 330px; 
             }
            
 
